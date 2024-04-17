@@ -3,6 +3,8 @@
 
 Dump was an easy rated Linux machine on Vulnyx, Involves dumping user hashes from SAM file and cracking it those hashes using hashcat for initial access. For root access, user dumper have writes to read the `/etc/shadow` file, which leaks the root user password hash which leads to get access to root user on the box.
 
+![image](https://github.com/iammR0OT/Vulnyx/assets/74102381/dd219dbf-43be-4651-a80c-1aab03adda85)
+
 # User 
 ## Scanning through Nmap
 
